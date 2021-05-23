@@ -1,7 +1,12 @@
 import React from "react";
 
+import ListWithInfiniteLoad from "./components/ListWithInfiniteLoad";
 const App = () => {
-  return <div> InfiniteScroll</div>;
+  return (
+    <div>
+      <ListWithInfiniteLoad />
+    </div>
+  );
 };
 
 export default App;
